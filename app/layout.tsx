@@ -29,14 +29,6 @@ export default function RootLayout({
       >
         
         {children}
-        <footer className="bg-gray-900 text-white py-6">
-  <div className="max-w-7xl mx-auto px-4 text-center space-y-2">
-    <p className="text-lg font-semibold">David</p>
-    <p>Email: <a href="mailto:david@example.com" className="text-blue-400 hover:underline">opabunmidavid@gmail.com</a></p>
-    <p>Phone: <a href="tel:+2348087640013" className="text-blue-400 hover:underline">+234 808 764 0013</a></p>
-    <p className="text-sm text-gray-400">&copy; 2025 David. All rights reserved.</p>
-  </div>
-</footer>
       </body>
     </html>
   );
